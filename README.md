@@ -120,7 +120,7 @@
             <div class="terminal-content">
                 <p>Anonymous@dogoodindustries</p>
                 <p>/home/user> </p>
-                <p>$ Password:</p>
+                <p>$ root@DGI~terminal:</p>
                 <input type="text" id="passwordInput" autofocus>
                 <p id="secretMessage" class="hidden">safety is an illusion 💜</p>
             </div>
@@ -132,7 +132,7 @@
 
         passwordInput.addEventListener('keypress', (e) => {
             if (e.key === 'Enter') {
-                if (passwordInput.value.toLowerCase() === 'ghoststrats') {
+                if (passwordInput.value.toLowerCase() === 'cd /users/home/Documents') {
                     secretMessage.classList.remove('hidden');
                     passwordInput.disabled = true;
                 } else {
