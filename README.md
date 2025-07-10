@@ -140,7 +140,7 @@
     passwordInput.addEventListener('keypress', (e) => {
       if (e.key === 'Enter') {
         const input = passwordInput.value.toLowerCase();
-        if (input === 'cd/users/home/documents') {
+        if (input === 'cd documents') {
           secretMessage.classList.remove('hidden');
           passwordInput.disabled = true;
         } else {
