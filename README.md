@@ -127,7 +127,7 @@
         <p>/home/user&gt; </p>
         <p>$ root@DGI~terminal:</p>
         <input type="text" id="passwordInput" autofocus />
-        <p id="secretMessage" class="hidden">safety is an illusion 💜</p>
+        <p id="secretMessage" class="hidden">https://do-good-industries.github.io/sigrid-dodson-emails-/ safety is an illusion 💜</p>
       </div>
     </div>
   </div>
